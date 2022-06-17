@@ -31,8 +31,8 @@ model = dict(
 
 # batch size
 data = dict(
-    samples_per_gpu=8,
-    workers_per_gpu=8,
+    samples_per_gpu=2,
+    workers_per_gpu=2,
 )
 
 # schedules

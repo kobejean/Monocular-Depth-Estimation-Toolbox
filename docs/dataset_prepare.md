@@ -95,7 +95,9 @@ Some methods may use the camera intrinsic parameters (*i.e.,* BTS), you need to 
 
 ### **NYU**
 
-Following previous work, I utilize about 50K image-depth pairs as our training set and standard 652 images as the validation set. You can download the subset with the help of codes provided in [BTS](https://github.com/cleinc/bts/tree/master/pytorch).
+Download from [here]() and place the nyu folder in `<project>/data`.
+
+~~Following previous work, I utilize about 50K image-depth pairs as our training set and standard 652 images as the validation set. You can download the subset with the help of codes provided in [BTS](https://github.com/cleinc/bts/tree/master/pytorch).~~
 
 ```shell
 $ git clone https://github.com/cleinc/bts.git
@@ -104,11 +106,11 @@ $ python utils/download_from_gdrive.py 1AysroWpfISmm-yRFGBgFTrLy6FjQwvwP sync.zi
 $ unzip sync.zip
 ```
 
-Also, you can download it from following link: https://drive.google.com/file/d/1AysroWpfISmm-yRFGBgFTrLy6FjQwvwP/view?usp=sharing
+~~Also, you can download it from following link: https://drive.google.com/file/d/1AysroWpfISmm-yRFGBgFTrLy6FjQwvwP/view?usp=sharing~~
 
-Then, you need to download the standard test set from this [link](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html). (**Note**: The downloaded file will be unzipped to folder test and train. You need to cut the files in the test folder out to data/nyu, organizing the directory structure following the file trees provided on the top of this page.)
+~~Then, you need to download the standard test set from this [link](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html). (**Note**: The downloaded file will be unzipped to folder test and train. You need to cut the files in the test folder out to data/nyu, organizing the directory structure following the file trees provided on the top of this page.)~~
 
-Finally, copy nyu_train.txt and nyu_test.txt in the splits folder into the data/nyu.
+~~Finally, copy nyu_train.txt and nyu_test.txt in the splits folder into the data/nyu.~~
 
 
 ### **SUNRGBD**

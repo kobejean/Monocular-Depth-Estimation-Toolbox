@@ -19,7 +19,7 @@ evaluation = dict(interval=2)  # This evaluate the model per 2 epoches.
 official support:
 
 ```shell
-sh tools/dist_train.sh ${CONFIG_FILE} 1 [optional arguments]
+bash tools/dist_train.sh ${CONFIG_FILE} 1 [optional arguments]
 ```
 
 experimental support (you may need to set PYTHONPATH):
@@ -47,7 +47,7 @@ The process of training on the CPU is consistent with single GPU training. We ju
 #### Train with multiple GPUs
 
 ```shell
-sh tools/dist_train.sh ${CONFIG_FILE} ${GPU_NUM} [optional arguments]
+bash tools/dist_train.sh ${CONFIG_FILE} ${GPU_NUM} [optional arguments]
 ```
 
 Optional arguments are:

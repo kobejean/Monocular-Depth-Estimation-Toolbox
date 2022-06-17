@@ -29,8 +29,8 @@ model = dict(
     ))
 # batch size
 data = dict(
-    samples_per_gpu=2,
-    workers_per_gpu=2,
+    samples_per_gpu=1,
+    workers_per_gpu=1,
 )
 # schedules
 # optimizer
