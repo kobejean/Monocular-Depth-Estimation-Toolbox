@@ -4,10 +4,14 @@ Please follow installation instructions in [get_started.md](docs/get_started.md#
 from [here](https://drive.google.com/file/d/1S79ulFUhSLBTFhlY8E29BlSkSzLMlj1Y/view?usp=sharing). create a `data` folder inside `Monocular-Depth-Estimation-Toolbox` folder and put the `nyu` folder from the download inside `Monocular-Depth-Estimation-Toolbox/data`.
 
 For Big to Small model, run:
-```bash tools/dist_train.sh ./configs/bts/bts_r50_nyu_24e.py 1```
+```
+bash tools/dist_train.sh ./configs/bts/bts_r50_nyu_24e.py 1
+```
 
 For Depthformer run:
-```bash tools/dist_train.sh ./configs/depthformer/depthformer_swint_w7_nyu.py 1```
+```
+bash tools/dist_train.sh ./configs/depthformer/depthformer_swint_w7_nyu.py 1
+```
 
 # Monocular-Depth-Estimation-Toolbox
 ## Introduction
